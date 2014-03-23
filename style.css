@@ -1,0 +1,73 @@
+﻿.travel{
+    position:relative;
+    z-index:-100;
+    width:1200px;
+    padding: 3em;
+    background: url(http://subtlepatterns.com/patterns/tree_bark.png) repeat;
+  }
+
+.travelcontent{
+  margin-left:7em;  
+    background: 
+ url(http://subtlepatterns.com/patterns/giftly.png)repeat;
+  padding: 4px 0 10px 0;
+}
+
+.mainheader{
+  box-shadow: 1px 5px 5px #666;
+}
+
+
+.mainmenu{
+  margin-top:1em;
+  margin-right:1.5em;
+  float:right;
+}
+
+.secondmenu{
+  margin-top:1em;
+  margin-left:7em;
+}
+
+
+
+
+li{
+   list-style-type :none;
+}
+
+.firstleftmenu,
+.secondleftmenu,
+.thirdleftmenu{
+  border:5px solid white;
+  width:260px;
+  padding: 4px 0 10px 0;
+  margin:1.5em;
+  color: white;
+  background-color:rgba(0,165,139,0.5);
+}
+.firstleftmenulist li:nth-child(even){
+  background-color:rgba(255,255,255,0.5);
+  height:2em;
+  margin:auto;
+  
+}
+#sidebar_left{
+  float:left;
+}
+#content{
+  float:left;
+  background-color:rgba(255,255,255,0.5);
+  padding: 4px 0 10px 0;
+  margin:1.5em;
+}
+
+#sidebar_right{
+  float:right;
+}
+
+#footer {position: relative;margin-top: -150px;height: 150px;clear:both;}
+
+
+
+
